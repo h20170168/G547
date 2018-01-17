@@ -1,0 +1,1 @@
+cmd_/home/vaibhav0901/G547/first_assign/first_assign.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vaibhav0901/G547/first_assign/first_assign.ko /home/vaibhav0901/G547/first_assign/first_assign.o /home/vaibhav0901/G547/first_assign/first_assign.mod.o ;  true
