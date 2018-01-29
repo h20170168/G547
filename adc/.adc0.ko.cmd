@@ -1,0 +1,1 @@
+cmd_/home/vaibhav0901/G547/adc/adc0.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/vaibhav0901/G547/adc/adc0.ko /home/vaibhav0901/G547/adc/adc0.o /home/vaibhav0901/G547/adc/adc0.mod.o ;  true
