@@ -84,7 +84,7 @@ static long timer_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
 			{                        
 				//sleep();
 				current_count_value=read_counter_value();
-				printk(KERN_ALERT "value of timer=%d\n\n",current_count_value);
+				
 				if(current_count_value==1)
 				{delay++;
 				}			
