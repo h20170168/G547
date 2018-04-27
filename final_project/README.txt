@@ -58,6 +58,6 @@ $ cat value
 
 The button state will change from 0 to 1 or vice-versa.
 
-3.8 Unexporting the module
+3.8 Unexporting the gpio pin
+$ cd /sys/class/gpio
 $ echo 509 > unexport
-This removes the module from /sys/class/gpio
